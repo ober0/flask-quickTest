@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Математический тест</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>Математический тест</h1>
+    <br>
+    <!-- Вопрос 1 -->
+    <div id="question1" class="question-block">
+        <p>1. Какое число является квадратом 9?</p>
+        <div class="btn-group">
+            <button class="btn" data-question="1">72</button>
+            <button class="btn" data-question="1">81</button>
+            <button class="btn" data-question="1">64</button>
+        </div>
+    </div>
+
+    <!-- Вопрос 2 -->
+    <div id="question2" class="question-block">
+        <p>2. Чему равно 7 + 5?</p>
+        <div class="btn-group">
+            <button class="btn" data-question="2">11</button>
+            <button class="btn" data-question="2">12</button>
+            <button class="btn" data-question="2">13</button>
+        </div>
+    </div>
+
+    <!-- Вопрос 3 -->
+    <div id="question3" class="question-block">
+        <p>3. Чему равно произведение 3 и 4?</p>
+        <div class="btn-group">
+            <button class="btn" data-question="3">6</button>
+            <button class="btn" data-question="3">12</button>
+            <button class="btn" data-question="3">9</button>
+        </div>
+    </div>
+
+    <!-- Вопрос 4 -->
+    <div id="question4" class="question-block">
+        <p>4. Сколько граней у куба?</p>
+        <div class="btn-group">
+            <button class="btn" data-question="4">6</button>
+            <button class="btn" data-question="4">8</button>
+            <button class="btn" data-question="4">12</button>
+        </div>
+    </div>
+
+    <!-- Вопрос 5 -->
+    <div id="question5" class="question-block">
+        <p>5. Чему равно 15 - 9?</p>
+        <div class="btn-group">
+            <button class="btn" data-question="5">5</button>
+            <button class="btn" data-question="5">6</button>
+            <button class="btn" data-question="5">7</button>
+        </div>
+    </div>
+
+    <!-- Вопрос 6 -->
+    <div id="question6" class="question-block">
+        <p>6. Чему равно 8 * 7?</p>
+        <div class="btn-group">
+            <button class="btn" data-question="6">56</button>
+            <button class="btn" data-question="6">64</button>
+            <button class="btn" data-question="6">72</button>
+        </div>
+    </div>
+
+    <!-- Вопрос 7 -->
+    <div id="question7" class="question-block">
+        <p>7. Какое число является корнем квадратным из 49?</p>
+        <div class="btn-group">
+            <button class="btn" data-question="7">6</button>
+            <button class="btn" data-question="7">7</button>
+            <button class="btn" data-question="7">8</button>
+        </div>
+    </div>
+
+    <!-- Вопрос 8 -->
+    <div id="question8" class="question-block">
+        <p>8. Чему равно 100 разделить на 4?</p>
+        <div class="btn-group">
+            <button class="btn" data-question="8">20</button>
+            <button class="btn" data-question="8">25</button>
+            <button class="btn" data-question="8">30</button>
+        </div>
+    </div>
+
+    <!-- Вопрос 9 -->
+    <div id="question9" class="question-block">
+        <p>9. Чему равно 2 в степени 3?</p>
+        <div class="btn-group">
+            <button class="btn" data-question="9">6</button>
+            <button class="btn" data-question="9">8</button>
+            <button class="btn" data-question="9">10</button>
+        </div>
+    </div>
+
+    <!-- Вопрос 10 -->
+    <div id="question10" class="question-block">
+        <p>10. Сколько градусов в прямом угле?</p>
+        <div class="btn-group">
+            <button class="btn" data-question="10">45</button>
+            <button class="btn" data-question="10">90</button>
+            <button class="btn" data-question="10">180</button>
+        </div>
+    </div>
+
+    <!-- Вопрос 11 -->
+    <div id="question11" class="question-block">
+        <p>11. Чему равно 3 + 4 * 2?</p>
+        <div class="btn-group">
+            <button class="btn" data-question="11">11</button>
+            <button class="btn" data-question="11">14</button>
+            <button class="btn" data-question="11">10</button>
+        </div>
+    </div>
+
+    <!-- Вопрос 12 -->
+    <div id="question12" class="question-block">
+        <p>12. Чему равна площадь квадрата со стороной 5?</p>
+        <div class="btn-group">
+            <button class="btn" data-question="12">20</button>
+            <button class="btn" data-question="12">25</button>
+            <button class="btn" data-question="12">30</button>
+        </div>
+    </div>
+
+    <!-- Вопрос 13 -->
+    <div id="question13" class="question-block">
+        <p>13. Чему равно 144 разделить на 12?</p>
+        <div class="btn-group">
+            <button class="btn" data-question="13">11</button>
+            <button class="btn" data-question="13">12</button>
+            <button class="btn" data-question="13">13</button>
+        </div>
+    </div>
+
+    <!-- Вопрос 14 -->
+    <div id="question14" class="question-block">
+        <p>14. Чему равна сумма углов треугольника?</p>
+        <div class="btn-group">
+            <button class="btn" data-question="14">180</button>
+            <button class="btn" data-question="14">360</button>
+            <button class="btn" data-question="14">90</button>
+        </div>
+    </div>
+
+    <!-- Вопрос 15 -->
+    <div id="question15" class="question-block">
+        <p>15. Чему равно 6 в квадрате?</p>
+        <div class="btn-group">
+            <button class="btn" data-question="15">36</button>
+            <button class="btn" data-question="15">42</button>
+            <button class="btn" data-question="15">48</button>
+        </div>
+    </div>
+
+    <!-- Вопрос 16 -->
+    <div id="question16" class="question-block">
+        <p>16. Чему равно 81 деленное на 9?</p>
+        <div class="btn-group">
+            <button class="btn" data-question="16">7</button>
+            <button class="btn" data-question="16">8</button>
+            <button class="btn" data-question="16">9</button>
+        </div>
+    </div>
+
+    <!-- Вопрос 17 -->
+    <div id="question17" class="question-block">
+        <p>17. Чему равен периметр квадрата со стороной 4?</p>
+        <div class="btn-group">
+            <button class="btn" data-question="17">12</button>
+            <button class="btn" data-question="17">16</button>
+            <button class="btn" data-question="17">20</button>
+        </div>
+    </div>
+
+    <!-- Вопрос 18 -->
+    <div id="question18" class="question-block">
+        <p>18. Чему равно 5 * 5?</p>
+        <div class="btn-group">
+            <button class="btn" data-question="18">20</button>
+            <button class="btn" data-question="18">25</button>
+            <button class="btn" data-question="18">30</button>
+        </div>
+    </div>
+
+    <!-- Вопрос 19 -->
+    <div id="question19" class="question-block">
+        <p>19. Чему равно 14 - 6?</p>
+        <div class="btn-group">
+            <button class="btn" data-question="19">7</button>
+            <button class="btn" data-question="19">8</button>
+            <button class="btn" data-question="19">9</button>
+        </div>
+    </div>
+
+    <!-- Вопрос 20 -->
+    <div id="question20" class="question-block">
+        <p>20. Чему равно 9 * 9?</p>
+        <div class="btn-group">
+            <button class="btn" data-question="20">72</button>
+            <button class="btn" data-question="20">81</button>
+            <button class="btn" data-question="20">64</button>
+        </div>
+    </div>
+</body>
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</html>
